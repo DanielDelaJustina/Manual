@@ -1,0 +1,5 @@
+ 1º Instalar node: https://nodejs.org/en/
+ 2º Instalar Angular Cli: -g @angular/cli (Rodar comando no cmd)
+ 3º Instalar Ide vsCode: https://code.visualstudio.com/
+ 4º Instalar plugin: vscode-icons
+ 5º habilitar plugin: CTRL + SHIFT + P procurar por Theme Icon
