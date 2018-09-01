@@ -6,3 +6,8 @@
  6º Instalar plugin: auto-import
  7º Instalar plugin: Angular v5 Snippets(by john Papa)
  8º Instalar TypeScript: npm install -g typescript (Rodar comando no cmd)
+ 
+ ############## COMANDOS ANGULAR #############
+  - Criando novo projeto: ng new nome
+  - Criando novo componente: ng g component nome
+  - Start projeto: ng serve
