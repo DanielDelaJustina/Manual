@@ -11,3 +11,4 @@
   - Criando novo projeto: ng new nome
   - Criando novo componente: ng g component nome
   - Start projeto: ng serve
+  - Criando serviço: ng g service nome
