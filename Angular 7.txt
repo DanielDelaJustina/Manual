@@ -1,0 +1,30 @@
+--Atualizar Node com versão 10 ou superior.
+https://nodejs.org/en/
+
+--Atualizar Angular Cli
+npm uninstall -g @angular/cli
+npm cache verify
+npm install -g @angular/cli@latest
+
+--Criando projeto sem adição dos testes
+ng new nomeprojeto --routing --skip-tests
+
+--Adicionando bootstrap e jquery ao projeto
+npm i bootstrap jquery --save
+
+--Adicionando plugin para mascaras de campos
+npm i angular-imask --save
+
+--Adicionando formato em decimais
+npm i angular-imask --save
+
+--Relatório manipulação de data
+npm install moment --save
+
+--PrimeNG
+npm install primeicons --save
+npm install primeng --save
+npm install chart.js --save
+
+--Simulador de backEnd
+npm i --save angular-in-memory-web-api
