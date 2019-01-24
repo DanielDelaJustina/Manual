@@ -16,10 +16,13 @@ npm i bootstrap jquery --save
 npm i angular-imask --save
 
 --Adicionando formato em decimais
-npm i angular-imask --save
+npm i currency-formatter --save
 
 --Relatório manipulação de data
 npm install moment --save
+
+--Mensagens
+npm install --save toastr
 
 --PrimeNG
 npm install primeicons --save
@@ -28,3 +31,18 @@ npm install chart.js --save
 
 --Simulador de backEnd
 npm i --save angular-in-memory-web-api
+
+--Adicionar no arquivo angular.json
+ "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/toastr/build/toastr.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/Chart.bundle.js"
+            ]
