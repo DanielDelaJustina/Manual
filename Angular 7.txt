@@ -46,3 +46,27 @@ npm i --save angular-in-memory-web-api
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "node_modules/chart.js/dist/Chart.bundle.js"
             ]
+
+--Criar modulo com rotas
+ng g m pages/categories --routing
+
+--Criar componentes para listagem 
+ng g c pages/categories/category-list
+
+--Criar componentes para criação e edição
+ng g c pages/categories/category-form
+
+--Adicionar rota geral
+arquivo -> app-routing.module-ts
+const routes: Routes = [
+  { path: 'categories', loadChildren: './pages/categories/categories.module#CategoriesModule' }
+];
+
+
+--Adicionando rotas dentro do componente
+arquivo -> categories-routing.modules.ts
+const routes: Routes = [
+  { path: '', component: CategoryListComponent },
+  { path: 'new', component: CategoryFormComponent},
+  { path: ':id/edit', component: CategoryFormComponent}
+];
