@@ -2,10 +2,13 @@
  2º Instalar Angular Cli: npm -g @angular/cli (Rodar comando no cmd)
  3º Instalar Ide vsCode: https://code.visualstudio.com/
  4º Instalar plugin: vscode-icons
- 5º habilitar plugin: CTRL + SHIFT + P procurar por Theme Icon
- 6º Instalar plugin: auto-import
- 7º Instalar plugin: Angular v5 Snippets(by john Papa)
- 8º Instalar TypeScript: npm install -g typescript (Rodar comando no cmd)
+ 5º Instalar plugin: TSLint (para validação de padões de codificação).
+ 6º Instalar plugin: EditorConfig (para respeitar os padrões definidos no arquivo .editorconfig).
+ 7º Instalar plugin: html snippets (auxilia na criações de tags html)
+ 8º habilitar plugin: CTRL + SHIFT + P procurar por Theme Icon
+ 9º Instalar plugin: auto-import
+ 10º Instalar plugin: Angular v5 Snippets(by john Papa)
+ 11º Instalar TypeScript: npm install -g typescript (Rodar comando no cmd)
  
  ############## COMANDOS ANGULAR #############
   - Criando novo projeto: ng new nome
