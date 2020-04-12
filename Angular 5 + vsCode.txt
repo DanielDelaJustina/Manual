@@ -5,7 +5,7 @@
  5º habilitar plugin: CTRL + SHIFT + P procurar por Theme Icon
  6º Instalar plugin: auto-import
  7º Instalar plugin: Angular v5 Snippets(by john Papa)
- 8º Instalar TypeScript: npm install -g typescript (Rodar comando no cmd)
+ 8º Instalar TypeScript: npm install -g typescript (Rodar comando no cmd).
  
  ############## COMANDOS ANGULAR #############
   - Criando novo projeto: ng new nome
